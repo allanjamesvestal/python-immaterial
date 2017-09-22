@@ -5,6 +5,12 @@ Helper functions to integrate [Immaterial UI](https://www.npmjs.com/package/imma
 For now, this module does just one thing: provides a `field_renderer` class for integrating `django-bootstrap3`'s `{% bootstrap_form %}` template tag. This field renderer will output form fields into a markup that's ready for styling by Immaterial.
 
 
+## Installation
+
+```bash
+pip install immaterial
+```
+
 ## Integration
 
 To make this package's `field_renderer` class available to `django-bootstrap3`, add the following to your Django project's `settings.py`  file:
