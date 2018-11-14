@@ -20,7 +20,7 @@ BOOTSTRAP3 = {
     'field_renderers': {
         'default': 'bootstrap3.renderers.FieldRenderer',
         'inline': 'bootstrap3.renderers.InlineFieldRenderer',
-        'immaterial': 'staff.field_renderers.ImmaterialFieldRenderer',
+        'immaterial': 'immaterial.field_renderers.ImmaterialFieldRenderer',
     },
 
     # ... Additional project-specific django-bootstrap3 settings here.
